@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAITAPJS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="p-5 w-50 border border-primary">
+        <h2>BÀI TẬP BUỔI 7</h2>
+        <input id="number" type="number" />
+        <button onclick="layNumber()" class="btn btn-primary">Lấy số</button>
+        <p id="ketqua1" class="alert alert-danger mt-3"></p>
+        <!-- bài 1  -->
+        <h6>Bài 1: Tổng các số dương trong mảng.</h6>
+        <button onclick="tongSoDuong()" class="btn btn-primary">
+          Tổng số dương là
+        </button>
+        <p id="ketqua2" class="alert alert-danger mt-3"></p>
+        <!-- bài 2 -->
+        <h6>Bài 2: Đếm có bao nhiêu số dương nhỏ trong mảng.</h6>
+        <button onclick="demSoDuong()" class="btn btn-primary">
+          Có bao nhiêu số dương
+        </button>
+        <p id="ketqua3" class="alert alert-danger mt-3"></p>
+        <!-- bài 3 -->
+        <h6>Bài 3: Tìm số nhỏ nhất trong mảng.</h6>
+        <button onclick="soMin()" class="btn btn-primary">
+          Số nhỏ nhất trong mảng
+        </button>
+        <p id="ketqua4" class="alert alert-danger mt-3"></p>
+        <!-- bài 4 -->
+        <h6>Bài 4: Tìm số dương nhỏ nhất trong mảng.</h6>
+        <button onclick="soMinDuong()" class="btn btn-primary">
+          Số dương nhỏ nhất trong mảng
+        </button>
+        <p id="ketqua5" class="alert alert-danger mt-3"></p>
+        <!-- bài 5 -->
+        <h6>
+          Bài 5: Tìm số chẵn cuối cùng trong mảng. Nếu không có số chẵn trả về
+          -1.
+        </h6>
+        <button onclick="soChanend()" class="btn btn-primary">
+          Số chẵn cuối cùng trong mảng
+        </button>
+        <p id="ketqua6" class="alert alert-danger mt-3"></p>
+        <!-- bài 6  -->
+        <h6>Bài 6 : Đổi chỗ 2 giá trị trong mảng theo vị trí.</h6>
+        <label for="vitri1">Vị trí đổi chỗ 1</label>
+        <input id="vitri1" type="number" /><br />
+        <label for="vitri2">Vị trí đổi chỗ 2</label>
+        <input id="vitri2" type="number" /><br />
+        <button onclick="swapnumber()" class="btn btn-primary mt-2">
+          Đổi chỗ vị trí
+        </button>
+        <p id="ketqua7" class="alert alert-danger mt-3"></p>
+        <!-- bài 7 -->
+        <h6>Bài 7 : Sắp xếp mảng theo thứ tự tăng dần.</h6>
+        <button onclick="sapXep()" class="btn btn-primary">Sắp xếp</button>
+        <p id="ketqua8" class="alert alert-danger mt-3"></p>
+        <!-- Bài 8 -->
+        <h6>
+          Bài 8: Tìm số nguyên tố đầu tiên trong mảng. Nếu không có số nguyên tố
+          thì trả về -1.
+        </h6>
+        <button onclick="findNguyenTo()" class="btn btn-primary">
+          Số nguyên tố đầu tiên trong mảng
+        </button>
+        <p id="ketqua9" class="alert alert-danger mt-3"></p>
+        <!-- Bài 9  -->
+        <h6>
+          Bài 9: Nhập thêm một mảng số thực, tìm xem trong mảng có bao nhiêu số
+          nguyên?
+        </h6>
+        <input id="numberthem" type="number" />
+        <button onclick="themNumber()" class="btn btn-primary">Thêm Số</button>
+        <p id="ketqua10" class="alert alert-danger mt-3"></p>
+
+        <button onclick="countSoNguyen()" class="btn btn-primary">
+          Đếm số nguyên trong mảng
+        </button>
+        <p id="ketqua11" class="alert alert-danger mt-3"></p>
+        <!-- Bài 10  -->
+        <h6>
+          Bài 10: So sánh số lượng số dương và số lượng số âm trong mảng xem số
+          nào nhiều hơn.
+        </h6>
+        <button onclick="soSanh()" class="btn btn-primary">So Sánh</button>
+        <p id="ketqua12" class="alert alert-danger mt-3"></p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/baitap.js"></script>
+  </body>
+</html>
